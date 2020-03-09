@@ -11,6 +11,9 @@ public class Festival {
     private java.util.ArrayList<Optreden> optredens;
 
     public Festival(String naam, LocalDate startdatum, LocalDate einddatum) {
+        //test geldige naam
+        //test geldige start datum
+        //test geldige einddatum en ligt na start
         this.naam = naam;
         this.startdatum = startdatum;
         this.einddatum = einddatum;
@@ -36,7 +39,46 @@ public class Festival {
         return optredens;
     }
 
-    public String getMedewerkersTekstVorm(){
-        return "trest";
+    public String geefMedewerkersAlsString(){
+        String output = null;
+        for (Werknemer werknemer: werknemers) {
+            output += "\n \n" + werknemer.toString();
+        }
+        return output;
     }
+
+    public Werknemer vindMedewerkerMetRRN(String rijksregisternummer){
+        for (Werknemer werknemer: werknemers) {
+            if (werknemer.getRijksregisternummer().equals(rijksregisternummer)){
+                return werknemer;
+            }
+        }
+        return null;
+    }
+
+    public void voegWerknemerToe(Werknemer werknemer){
+        //lege werkenemer threx
+        //kijken als werknemer is al toegevoegd
+        werknemers.add(werknemer);
+    }
+
+    public int geefAantalBonnetjesDieNogVoorzienMoetenWorden(){
+        int bonnetjesTeVoorzien = 0;
+        for (Werknemer werknemer: werknemers) {
+            if (werknemer instanceof Vrijwilliger){
+                bonnetjesTeVoorzien += ((Vrijwilliger) werknemer).geefVerloning();
+            }
+        }
+
+        return bonnetjesTeVoorzien;
+    }
+
+    public double geefGemiddeldeVerloningPrestatie(){
+        return 0.00;u
+    }
+
+    public String toString(){ return null;}
+
+    //geef prestaties loopen over de werknemerslijst indien instanceof is dan weegeven
+
 }

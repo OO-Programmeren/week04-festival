@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b85d7980-7398-4e23-b730-fb6def4330d0" name="Default Changelist" comment="" />
+    <list default="true" id="b85d7980-7398-4e23-b730-fb6def4330d0" name="Default Changelist" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/domain/FestivalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Prestatie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/WerknemerVastePrijs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/WerknemerVergoedPerUur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/app.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagram.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Festival.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Festival.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Loonwerknemer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Loonwerknemer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Vrijwilliger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Vrijwilliger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Werknemer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Werknemer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week04-festival.iml" beforeDir="false" afterPath="$PROJECT_DIR$/week04-festival.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +30,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -23,15 +40,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YZKzZ0indsSj68KCRNqkZ4QxPl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,6 +68,37 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="domain" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="domain" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.app" />
+      <module name="week04-festival" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.app" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -52,25 +110,75 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583144939757</updated>
-      <workItem from="1583144941934" duration="1821000" />
+      <workItem from="1583144941934" duration="2332000" />
+      <workItem from="1583152195556" duration="7064000" />
+      <workItem from="1583755454773" duration="1960000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1583146981794</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583146981794</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="200" key="#com.intellij.ide.util.MemberChooser" timestamp="1583146598853">
+    <state x="304" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583157896045">
       <screen x="0" y="23" width="1680" height="946" />
     </state>
-    <state x="653" y="200" key="#com.intellij.ide.util.MemberChooser/0.23.1680.946@0.23.1680.946" timestamp="1583146598853" />
+    <state x="304" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.946@0.23.1680.946" timestamp="1583157896045" />
+    <state x="653" y="200" key="#com.intellij.ide.util.MemberChooser" timestamp="1583157162629">
+      <screen x="0" y="23" width="1680" height="946" />
+    </state>
+    <state x="653" y="200" key="#com.intellij.ide.util.MemberChooser/0.23.1680.946@0.23.1680.946" timestamp="1583157162629" />
     <state x="539" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583146480290">
       <screen x="0" y="23" width="1680" height="946" />
     </state>
     <state x="539" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.946@0.23.1680.946" timestamp="1583146480290" />
-    <state x="602" y="115" key="refactoring.ChangeSignatureDialog" timestamp="1583145766960">
+    <state x="306" y="23" key="CommitChangelistDialog2" timestamp="1583155726558">
       <screen x="0" y="23" width="1680" height="946" />
     </state>
-    <state x="602" y="115" key="refactoring.ChangeSignatureDialog/0.23.1680.946@0.23.1680.946" timestamp="1583145766960" />
+    <state x="306" y="23" key="CommitChangelistDialog2/0.23.1680.946@0.23.1680.946" timestamp="1583155726558" />
+    <state width="1638" height="234" key="GridCell.Tab.0.bottom" timestamp="1583756765321">
+      <screen x="0" y="23" width="1680" height="946" />
+    </state>
+    <state width="1638" height="234" key="GridCell.Tab.0.bottom/0.23.1680.946@0.23.1680.946" timestamp="1583756765321" />
+    <state width="1638" height="234" key="GridCell.Tab.0.center" timestamp="1583756765320">
+      <screen x="0" y="23" width="1680" height="946" />
+    </state>
+    <state width="1638" height="234" key="GridCell.Tab.0.center/0.23.1680.946@0.23.1680.946" timestamp="1583756765320" />
+    <state width="1638" height="234" key="GridCell.Tab.0.left" timestamp="1583756765319">
+      <screen x="0" y="23" width="1680" height="946" />
+    </state>
+    <state width="1638" height="234" key="GridCell.Tab.0.left/0.23.1680.946@0.23.1680.946" timestamp="1583756765319" />
+    <state width="1638" height="234" key="GridCell.Tab.0.right" timestamp="1583756765321">
+      <screen x="0" y="23" width="1680" height="946" />
+    </state>
+    <state width="1638" height="234" key="GridCell.Tab.0.right/0.23.1680.946@0.23.1680.946" timestamp="1583756765321" />
+    <state x="440" y="232" key="Vcs.Push.Dialog.v2" timestamp="1583146983737">
+      <screen x="0" y="23" width="1680" height="946" />
+    </state>
+    <state x="440" y="232" key="Vcs.Push.Dialog.v2/0.23.1680.946@0.23.1680.946" timestamp="1583146983737" />
+    <state x="544" y="392" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583756853370">
+      <screen x="0" y="23" width="1680" height="946" />
+    </state>
+    <state x="544" y="392" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1680.946@0.23.1680.946" timestamp="1583756853370" />
+    <state x="612" y="203" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583756904950">
+      <screen x="0" y="23" width="1680" height="946" />
+    </state>
+    <state x="612" y="203" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.946@0.23.1680.946" timestamp="1583756904950" />
+    <state x="745" y="145" key="refactoring.ChangeSignatureDialog" timestamp="1583154505726">
+      <screen x="0" y="23" width="1680" height="946" />
+    </state>
+    <state x="745" y="145" key="refactoring.ChangeSignatureDialog/0.23.1680.946@0.23.1680.946" timestamp="1583154505726" />
   </component>
 </project>
